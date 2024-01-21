@@ -1,33 +1,33 @@
-﻿# CalendarioCumpleanos
- Calendario by : Nicolas Garcia
-Manual del usuario
------------------------------------------------------------------
-El programa calendario guarda las fechas de los cumpleaños de las
-personas junto con el nombre, por lo que en una fecha permite guardar
-uno o varios nombres separados con el carácter “&” y de este modo saber
-quienes cumplen años ese día o mes específico.
-Además de eso el programa nos da un menú con múltiples opciones que le
-permite al usuario agregar, eliminar o mostrar un cumpleaños, entre
-otras opciones.
------------------------------------------------------------------
-Pasos de uso.
-Inicie el archivo calendariogrupo7.cpp o calendariogrupo7.exe.
-Al momento de abrir el programa por primera vez se crearán los archivos
-necesarios para su uso.
------------------------------------------------------------------
-Restricciones:
-Al momento de ingresar una fecha: el programa solo acepta valores
-numéricos (No use letras, símbolos o espacios al momento de digitar un
-valor) acordes al calendario romano. Los meses del año van de 1 al 12,
-los días deben ser acordes al mes ingresado y los años no pueden ser
-negativos
-Al momento de ingresar un nombre: Los nombres o pseudónimos deben estar
-escritos en una sola línea, se permite únicamente el uso de letras y
-números utilizando guión bajo como si fuera espacios entre las palabras
-o en su defecto utilice un solo nombre de la persona por ejemplo. Un
-nombre válido puede ser (Camilo_Andres), (Fr3ddy) y (El_pepe_21) pero
-un nombre no válido podría ser (Nico Vega), (Fredd&) o (Marcos 21)Los
-caracteres especiales como símbolos (% & # ! “ @) tampoco están
-permitidos.
-Al momento de borrar un nombre: Asegúrese de que el nombre que desea
-borrar existe en el programa, digítelo tal y como aparece.
+# Calendario por: Nicolas Garcia
+
+## Manual del Usuario
+
+El programa Calendario está diseñado para gestionar las fechas de cumpleaños de personas, asociándolas con sus respectivos nombres. Esto permite almacenar uno o varios nombres en una fecha específica, separados por el carácter "&", facilitando así la identificación de quienes cumplen años en un día o mes particular.
+
+Además, el programa ofrece un menú con diversas opciones que permiten al usuario agregar, eliminar o mostrar cumpleaños, entre otras funcionalidades.
+
+## Pasos de Uso
+
+1. Inicie el archivo `calendariogrupo7.cpp` o `calendariogrupo7.exe`.
+2. La primera vez que abra el programa, se crearán automáticamente los archivos necesarios para su funcionamiento.
+
+## Restricciones
+
+### Ingreso de Fechas:
+
+- El programa acepta únicamente valores numéricos al ingresar una fecha. No se permiten letras, símbolos o espacios al digitar un valor.
+- Los meses del año deben ser especificados del 1 al 12.
+- Los días ingresados deben ser acordes al mes seleccionado.
+- Los años no pueden ser negativos.
+
+### Ingreso de Nombres:
+
+- Los nombres o pseudónimos deben estar escritos en una sola línea.
+- Solo se permite el uso de letras y números.
+- Utilice guión bajo como espacio entre palabras (ejemplo: `Camilo_Andres`).
+- Un solo nombre por persona (ejemplo: `Fr3ddy`).
+- No se permiten caracteres especiales como símbolos (`%`, `&`, `#`, `!`, `“`, `@`).
+
+### Borrado de Nombres:
+
+- Asegúrese de que el nombre a borrar exista en el programa y ingréselo tal como aparece.
